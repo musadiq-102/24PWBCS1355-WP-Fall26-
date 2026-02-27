@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <header>
+        <h1>Musaddiq Sharif</h1>
+    </header>
+
+    <section>
+        <img src="file:///C:/Users/MUSADDIQ/AppData/Local/Temp/Rar$DIa8844.8803/Musaddiq%20Sharif.pdf" alt="My Profile Picture" width="200">
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science student passionate about web development, 
+            programming, and modern technologies. I enjoy learning new skills 
+            and building creative projects using HTML, CSS, and JavaScript. 
+            My goal is to become a professional software developer.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>Email: musaddiqbscs@gmail.com</p>
+        <p>Phone: +92-0342-7813327</p>
+        <p>Location: Karak, Pakistan</p>
+    </section>
+
+    <footer>
+        <p><strong>Course:</strong> CS 224L Web Technologies</p>
+        <p><strong>Instructor:</strong> Mr. Mohammad, Lecturer</p>
+        <p><strong>Department:</strong> Department of Computer Science</p>
+        <p><strong>University:</strong> University of Engineering & Technology, Peshawar</p>
+    </footer>
+
+</body>
+</html>
