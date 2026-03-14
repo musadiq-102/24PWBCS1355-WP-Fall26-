@@ -1,0 +1,206 @@
+
+*{
+    font-family: Arial;
+}
+
+p{
+    color: green;
+    font-size: 18px;
+}
+
+
+.box{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+#title{
+    color: purple;
+}
+input[type="text"]{
+    border:2px solid blue;
+}
+
+a[target="_blank"]{
+    color:red;
+}
+
+img[alt*="profile"]{
+    border-radius:50%;
+}
+/* Descendant */
+div p{
+    color:blue;
+}
+
+/* Child */
+div > h3{
+    color:orange;
+}
+
+/* Adjacent sibling */
+h1 + p{
+    background-color:yellow;
+}
+
+/* General sibling */
+h2 ~ p{
+    font-style:italic;
+}
+a:link{
+    color:blue;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+input:focus{
+    border:3px solid red;
+}
+
+li:first-child{
+    color:purple;
+}
+p::first-letter{
+    font-size:30px;
+    color:red;
+}
+
+p::first-line{
+    font-weight:bold;
+}
+
+p::selection{
+    background:black;
+    color:white;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+p{
+    line-height:1.6;
+    letter-spacing:1px;
+}
+
+.shadow-text{
+    text-shadow:2px 2px 5px gray;
+}
+.bg1{
+    background-color: lightgreen;
+}
+
+.bg2{
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradient{
+    background: linear-gradient(to right, red, yellow);
+}
+img{
+    width:200px;
+    border-radius:10px;
+    border:3px solid black;
+}
+
+img:hover{
+    transform:scale(1.1);
+    transition:0.5s;
+}
+
+.blur{
+    filter: blur(2px);
+}
+
+.brightness{
+    filter: brightness(150%);
+}
+.card{
+    width:250px;
+    padding:20px;
+    margin:20px;
+    border:1px solid #ccc;
+    box-shadow:0px 4px 8px rgba(0,0,0,0.3);
+}
+.transform-box{
+    width:200px;
+    height:200px;
+    background:orange;
+}
+
+.transform-box:hover{
+    transform:rotate(20deg) scale(1.2);
+    transition:1s;
+}
+button{
+    padding:10px 20px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+button:hover{
+    background:red;
+    transform:scale(1.1);
+}
+input, select{
+    padding:10px;
+    margin:5px;
+    border:1px solid gray;
+    border-radius:4px;
+}
+
+input:focus{
+    border-color:blue;
+}
+
+button:disabled{
+    background:gray;
+}
+nav{
+    background:#333;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    padding:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:yellow;
+}
+.card{
+    width:250px;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
